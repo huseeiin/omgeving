@@ -4,6 +4,10 @@
   "files": [
     "dist"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huseeiin/omgeving.git"
+  },
   "devDependencies": {
     "@types/node": "^20.12.7",
     "tsup": "^8.0.2",
