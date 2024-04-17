@@ -49,7 +49,7 @@ export function cleanEnv<T extends { [key: string]: number | string }>(
 
       const defaultEnvVar =
         validator.options?.default ?? (IS_DEV && validator.options?.devDefault);
-      let envVar = process.env[key] ?? defaultEnvVar;
+      const envVar = process.env[key] ?? defaultEnvVar;
 
       if (
         envVar == null ||
