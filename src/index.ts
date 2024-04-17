@@ -20,7 +20,7 @@ function error(msg: string) {
 }
 
 /**
- * Type-safe environment variables in Bun and Node. Inspired by `envalid`.
+ * Type-safe environment variables in Bun and Node. Inspired by [envalid](https://github.com/af/envalid).
  *
  * Example
  * ```ts
