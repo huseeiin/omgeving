@@ -1,0 +1,21 @@
+{
+  "name": "omgeving",
+  "version": "0.2.0",
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.5"
+  },
+  "exports": {
+    "import": "./dist/index.js",
+    "require": "./dist/index.cjs"
+  },
+  "scripts": {
+    "build": "tsup src/index.ts --dts --minify --format esm,cjs"
+  },
+  "type": "module",
+  "types": "./dist/index.d.ts"
+}
